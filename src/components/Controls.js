@@ -9,7 +9,16 @@ class Controls extends Component {
     render() {
         return (
             <div className="sub-container">
-                <p>scores</p>
+                <h4>Controls</h4>
+                <div className="controls-container">
+                    <button className="number-button">0</button>
+                    <button className="number-button">1</button>
+                    <button className="number-button">2</button>
+                    <button className="number-button">3</button>
+                    <button className="number-button">4</button>
+                    <button className="number-button">6</button>
+                    <button className="wicket-button">Wicket</button>
+                </div>
             </div>
         )
     }

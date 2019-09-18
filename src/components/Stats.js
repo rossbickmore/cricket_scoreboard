@@ -9,7 +9,7 @@ class Stats extends Component {
     render() {
         return (
             <div className="sub-container">
-                 <p>stats</p>
+                 <h4>Stats</h4>
             </div>
         )
     }

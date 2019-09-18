@@ -9,7 +9,7 @@ class Score extends Component {
     render() {
         return (
             <div className="sub-container">
-                 <p>scores</p>
+                 <h4>Scores</h4>
             </div>
            
         )
