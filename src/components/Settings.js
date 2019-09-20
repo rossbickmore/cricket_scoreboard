@@ -11,7 +11,6 @@ class Settings extends Component {
     }
     render() {
         return (
-            <div className="sub-container">
             <div className="settings-container">
                 <h2>Enter the game conditions</h2>
                 <form >
@@ -27,7 +26,6 @@ class Settings extends Component {
                     </select>
                    </div>
                 </form>
-            </div>
             </div>
         )
     }

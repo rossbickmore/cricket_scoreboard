@@ -10,7 +10,7 @@ class Score extends Component {
    
     render() {
         return (
-            <div className="sub-container">
+            <div className="mid-container">
                  <div className="home-container">
                     <h3>Home team</h3>
                     <div className="score-container">

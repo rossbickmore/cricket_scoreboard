@@ -1,33 +1,121 @@
-.App {
+.container {
+  background-color: white;
+  font-family: sans-serif;
+  height: 100vmin;
+}
+
+
+.top-container {
+  height: 20%;
+  display: flex;
+}
+
+.mid-container {
+  height: 33%;
+  display: flex;
+}
+
+.bottom-container {
+  height: 33%;
+  display: flex;
+}
+
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25%;
+  margin: auto auto;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25%;
+  margin: auto auto;
+}
+
+
+
+input {
+  text-align: right;
+  width: 25%;
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+}
+
+label {
+  text-align: right;
+  width: 25%;
+  background-color: white;
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+}
+
+header {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  padding: 2vmin;
+}
+
+.controls-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 75%;
+  width: 50%;
+  margin: auto auto;
+}
+
+.label {
+  background-color: black;
+  color: white;
+  width: 99%;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.number-button {
+  background-color: green;
   color: white;
+  width: 33%;
 }
 
-.App-link {
-  color: #61dafb;
+.wicket-button {
+  background-color: red;
+  color: white;
+  width: 99%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.batting-button-home {
+  background-color: blue;
+  color: white;
+  width: 99%;
+}
+
+.batting-button-away {
+  background-color: orange;
+  color: white;
+  width: 99%;
+}
+
+.home-container {
+  background-color: blue;
+  color: white;
+  margin: auto auto;
+  height: 80%;
+  width: 30%;
+  text-align: center;
+}
+
+.away-container {
+  background-color: orange;
+  color: white;
+  margin: auto auto;
+  height: 80%;
+  width: 30%;
+  text-align: center;
 }
